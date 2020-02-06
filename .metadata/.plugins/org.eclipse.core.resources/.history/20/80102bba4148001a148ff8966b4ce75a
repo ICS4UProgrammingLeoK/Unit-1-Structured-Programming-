@@ -1,0 +1,56 @@
+import java.util.Scanner;
+public class LoggingCompanyLeoK {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//here is the problem:
+			//Depending on the logging company, maple logs are cut into lengths of either 0.25 m, 0.5 m or 1m. 
+			//Maple logs weigh 20 kg/m and a logging truck can carry 1100 kg. 
+			//How many maple logs should be placed on a truck if you know the lengths of the logs? (Note: a truck will only take 1 length type of logs at a time).
+
+			//create a (console) program that will:
+			//1. Ask the user to enter the lengths of the logs
+			//2. Tell the user the number of logs that can go on a truck
+		
+		//Variables
+	    final double LOG_MASS = 20;
+	    final double MAX_MASS = 1100;
+	    double log_length;
+	    double log_mass_after;
+	    double number_of_logs;
+	    
+	    int choice;
+        int one_meter = 1;
+        int half_meter = 2;
+        int quarter_meter = 3;
+	    
+	    //Get the log length
+	    Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("What length of log would you like?");
+        System.out.println("1: 1 meter");
+        System.out.println("2: 0.5 meters");
+        System.out.println("3: 0.25 meters");
+
+        choice = keyboard.nextInt();
+
+        if (choice == 1) {
+            log_length = 1;
+        } else if (choice == 2) {
+            log_length = 0.5;
+        } else if (choice == 3) {
+            log_length = 0.25;
+        } else if (choice > 3 || choice < 1) {
+            System.out.println("Please select a proper number.");
+            choice = -1;
+        }
+        
+        //Calculate the number of logs that can go on the truck
+        log_mass_after = LOG_MASS/1/log_length;
+        number_of_logs = MAX_MASS/log_mass_after;
+        
+        //display the answer
+        System.out.println("The number of logs that can fit in the truck are " + number_of_logs + ".");
+	}
+
+}
