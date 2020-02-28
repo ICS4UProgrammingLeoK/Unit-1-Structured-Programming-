@@ -1,3 +1,11 @@
+/*
+ * Created by: Leo Kay
+ * Created on: 28-02-2020
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 5 - Einstein's Equation
+ * This program is an e=mc^2 calculator, the user inputs the mass and it calculates the energy
+*/
+
 import java.util.Scanner;
 public class EinsteinsEquationLeoK {
 
