@@ -1,5 +1,12 @@
-import java.util.Random;
+/*
+ * Created by: Leo Kay
+ * Created on: 28-02-2020
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 8 - Dice Game
+ * This program allows the user to guess a number between 1 and 6 and tells them if they got it right or wrong
+*/
 
+import java.util.Random;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;
