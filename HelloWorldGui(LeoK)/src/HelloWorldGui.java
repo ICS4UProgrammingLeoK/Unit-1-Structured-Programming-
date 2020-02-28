@@ -2,7 +2,7 @@
  * Created by: Leo Kay
  * Created on: 28-02-2020
  * Created for: ICS3U Programming
- * Daily Assignment – Day 27 - HelloWorldGUI
+ * Daily Assignment – Day 2 - HelloWorldGUI
  * This program is a hello world program displayed by GUI
 */
 
