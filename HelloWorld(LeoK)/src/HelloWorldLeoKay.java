@@ -10,6 +10,7 @@ public class HelloWorldLeoKay {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//display hello world
 		String FirstWord = "Hello";
 		String SecondWord = " World!";
 		System.out.println(FirstWord + SecondWord);
