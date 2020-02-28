@@ -1,3 +1,11 @@
+/*
+ * Created by: Leo Kay
+ * Created on: 28-02-2020
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 6 - HelloWorldGUI
+ * This program is a hello world program displayed by GUI
+*/
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
@@ -78,22 +86,27 @@ public class SimpCalc {
 				
 				//error checking
 				try {
+					//getting the first number
 					number1 = Integer.parseInt(txt_firstNum.getText());
 				}
 				catch (Exception exc) {
+					//display an error box if they enter a bad number
 					MessageDialog.openError(shlSimpleCalculator, "Error", "Bad first number. Please enter a new one");
 					return;
 				}
 				try {
+					//getting the second number
 					number2 = Integer.parseInt(txt_secondNum.getText());
 				}
 				catch (Exception exc) {
+					//display an error box if they enter a bad number
 					MessageDialog.openError(shlSimpleCalculator, "Error", "Bad second number. Please enter a new one");
 					return;
 				}
 				
 				//answer
 				int answer = number1 + number2;
+				//display the answer
 				lbl_answer.setText("The answer is " + answer);
 			}
 		});
@@ -110,22 +123,27 @@ public class SimpCalc {
 				
 				//error checking
 				try {
+					//getting the first number
 					number1 = Integer.parseInt(txt_firstNum.getText());
 				}
 				catch (Exception exc) {
+					//display an error box if they enter a bad number
 					MessageDialog.openError(shlSimpleCalculator, "Error", "Bad first number. Please enter a new one");
 					return;
 				}
 				try {
+					//getting the second number
 					number2 = Integer.parseInt(txt_secondNum.getText());
 				}
 				catch (Exception exc) {
+					//display an error box if they enter a bad number
 					MessageDialog.openError(shlSimpleCalculator, "Error", "Bad second number. Please enter a new one");
 					return;
 				}
 				
 				//answer
 				int answer = number1 - number2;
+				//display the answer
 				lbl_answer.setText("The answer is " + answer);
 			}
 		});
@@ -141,22 +159,27 @@ public class SimpCalc {
 				
 				//error checking
 				try {
+					//getting the first number
 					number1 = Integer.parseInt(txt_firstNum.getText());
 				}
 				catch (Exception exc) {
+					//display an error box if they enter a bad number
 					MessageDialog.openError(shlSimpleCalculator, "Error", "Bad first number. Please enter a new one");
 					return;
 				}
 				try {
+					//getting the second number
 					number2 = Integer.parseInt(txt_secondNum.getText());
 				}
 				catch (Exception exc) {
+					//display an error box if they enter a bad number
 					MessageDialog.openError(shlSimpleCalculator, "Error", "Bad second number. Please enter a new one");
 					return;
 				}
 				
 				//answer
 				int answer = number1 * number2;
+				//display the answer
 				lbl_answer.setText("The answer is " + answer);
 			}
 		});
@@ -172,22 +195,27 @@ public class SimpCalc {
 				
 				//error checking
 				try {
+					//getting the first number
 					number1 = Integer.parseInt(txt_firstNum.getText());
 				}
 				catch (Exception exc) {
+					//display an error box if they enter a bad number
 					MessageDialog.openError(shlSimpleCalculator, "Error", "Bad first number. Please enter a new one");
 					return;
 				}
 				try {
+					//getting the second number
 					number2 = Integer.parseInt(txt_secondNum.getText());
 				}
 				catch (Exception exc) {
+					//display an error box if they enter a bad number
 					MessageDialog.openError(shlSimpleCalculator, "Error", "Bad second number. Please enter a new one");
 					return;
 				}
 				
 				//answer
 				int answer = number1 / number2;
+				//display the answer
 				lbl_answer.setText("The answer is " + answer);
 			}
 		});
