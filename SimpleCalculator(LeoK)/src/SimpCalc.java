@@ -2,8 +2,8 @@
  * Created by: Leo Kay
  * Created on: 28-02-2020
  * Created for: ICS3U Programming
- * Daily Assignment – Day 6 - HelloWorldGUI
- * This program is a hello world program displayed by GUI
+ * Daily Assignment – Day 6 - Simple Calculator
+ * This program allows addition, subrtaction, division, and multiplication between 2 numbers that the user enters
 */
 
 import org.eclipse.swt.widgets.Display;
