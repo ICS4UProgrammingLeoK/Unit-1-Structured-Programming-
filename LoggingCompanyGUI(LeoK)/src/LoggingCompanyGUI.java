@@ -1,3 +1,11 @@
+/*
+ * Created by: Leo Kay
+ * Created on: 28-02-2020
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 4 - LoggingCompanyGUI
+ * This program calculates the number of logs that can fit on a truck and is diplayed by GUI
+*/
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;

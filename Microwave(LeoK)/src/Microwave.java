@@ -1,3 +1,11 @@
+/*
+ * Created by: Leo Kay
+ * Created on: 28-02-2020
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 7 - Microwave
+ * This program allows the user to select a food and how many portions and tells the user how long it will take in the microwave
+*/
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;

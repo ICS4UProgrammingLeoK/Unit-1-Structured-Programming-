@@ -1,3 +1,11 @@
+/*
+ * Created by: Leo Kay
+ * Created on: 28-02-2020
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 4 - LoggingCompany
+ * This program calculates the number of logs that can fit on a truck
+*/
+
 import java.util.Scanner;
 public class LoggingCompanyLeoK {
 

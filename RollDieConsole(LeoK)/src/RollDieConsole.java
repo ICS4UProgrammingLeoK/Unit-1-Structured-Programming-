@@ -1,3 +1,11 @@
+/*
+ * Created by: Leo Kay
+ * Created on: 28-02-2020
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 9 - Roll Die Console
+ * This program allows the user to choose a max value for a random number that is created
+*/
+
 import java.util.Scanner;
 import java.util.Random;
 public class RollDieConsole {

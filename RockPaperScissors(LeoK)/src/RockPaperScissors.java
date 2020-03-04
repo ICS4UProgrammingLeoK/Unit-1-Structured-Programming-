@@ -1,3 +1,11 @@
+/*
+ * Created by: Leo Kay
+ * Created on: 28-02-2020
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 10 - Rock, Paper, Scissors
+ * This program is a rock paper scissors program that lets the user play against the computer
+*/
+
 import java.util.Random;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
